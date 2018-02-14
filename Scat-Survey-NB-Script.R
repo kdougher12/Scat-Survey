@@ -23,7 +23,7 @@ library(MuMIn)
 library(pander)
 
 # Read Data: 
-Trail_Segment_Variables<- read.csv("~/Documents/Scat_Survey/Trail Segment Buffer Variables/Trail Segment Variables.csv")
+Trail_Segment_Variables<- read.csv("~/Box/Thesis/Scat_Survey/Trail Segment Buffer Variables/Trail Segment Variables.csv")
 
 #Create dataframe that does not contain unnecessary fields:
 Analysis_Variables <- Trail_Segment_Variables[c(11:16, 20:22, 24, 26)]
